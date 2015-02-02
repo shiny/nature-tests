@@ -1,0 +1,22 @@
+{
+    "name": "nature/tests",
+    "type": "library",
+    "description": "Tests for nature/base",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shiny",
+            "email": "daijie@php.net",
+            "homepage": "http://www.meettea.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "phpunit/phpunit": "4.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nature\\": ""
+        }
+    }
+}
